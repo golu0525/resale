@@ -1,0 +1,32 @@
+[debug] [2017-07-21T11:44:15.871Z] ----------------------------------------------------------------------
+[debug] [2017-07-21T11:44:15.902Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-07-21T11:44:15.902Z] CLI Version:  3.9.1
+[debug] [2017-07-21T11:44:15.902Z] Platform:     win32
+[debug] [2017-07-21T11:44:15.902Z] Node Version: v8.1.1
+[debug] [2017-07-21T11:44:15.918Z] Time:         Fri Jul 21 2017 17:14:15 GMT+0530 (India Standard Time)
+[debug] [2017-07-21T11:44:15.918Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-21T11:44:16.105Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-21T11:44:16.120Z] > authorizing via signed-in user
+[debug] [2017-07-21T11:44:16.136Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-21T11:44:16.152Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/0tT_RU_xMk3h_Hcr-ltEgf5d2i0UO1CnA4bpy7nDqBl7zQfaLEIplRT-q1Ol3KaQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jul 21 2017 17:14:16 GMT+0530 (India Standard Time)
+[debug] [2017-07-21T11:44:20.161Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-21T11:44:20.348Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/resaleapp  
+ Fri Jul 21 2017 17:14:20 GMT+0530 (India Standard Time)
+[debug] [2017-07-21T11:44:24.337Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-21T11:44:24.337Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/resaleapp/tokens  
+ Fri Jul 21 2017 17:14:24 GMT+0530 (India Standard Time)
+[debug] [2017-07-21T11:44:27.723Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'resaleapp'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-07-21T11:44:47.290Z] Error: ENOENT: no such file or directory, open 'C:\Users\LENOVO\AppData\Local\Temp;D:\mysql-connector-java-5.1.40\mysql-connector-java-5.1.40\mysql-connector-java-5.1.40-bin.jar\firebase-upload-593656P9YoQhxYyK.tar.gz'
+[error] 
+[error] Error: An unexpected error has occurred.
